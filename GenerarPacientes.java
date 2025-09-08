@@ -6,7 +6,7 @@ public class GenerarPacientes {
         Paciente[] pacientes = new Paciente[cantidad];
         Random random = new Random();
 
-        String[] nombres = {"Luna", "Max", "Tati", "Bella", "Toby", "Nala", "Coco", "Tomas", "Milo", "Kira"};
+        String[] nombres = {"Rocky", "Tomas", "Lulu", "Scouby", "Meme", "Layca", "Canelo", "Bigotes", "Alpy", "Bimbo"};
         String[] especies = {"Perro", "Gato"};
 
         for (int i = 0; i < cantidad; i++) {
@@ -32,3 +32,4 @@ public class GenerarPacientes {
         return pacientes;
     }
 }
+
